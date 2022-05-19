@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Lab_7033009_002.dir/Google_Test/test1.cpp.obj"
   "CMakeFiles/Lab_7033009_002.dir/main.cpp.obj"
   "Lab_7033009_002.exe"
   "Lab_7033009_002.exe.manifest"

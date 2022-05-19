@@ -53,16 +53,18 @@ CMAKE_BINARY_DIR = C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debu
 
 # The main recursive "all" target.
 all: CMakeFiles/Lab_7033009_002.dir/all
+all: Google_Test/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Lab_7033009_002.dir/clean
+clean: Google_Test/clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: Google_Test/preinstall
 
 .PHONY : preinstall
 
@@ -73,12 +75,12 @@ preinstall:
 CMakeFiles/Lab_7033009_002.dir/all:
 	$(MAKE) -f CMakeFiles\Lab_7033009_002.dir\build.make CMakeFiles/Lab_7033009_002.dir/depend
 	$(MAKE) -f CMakeFiles\Lab_7033009_002.dir\build.make CMakeFiles/Lab_7033009_002.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Lab_7033009_002"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target Lab_7033009_002"
 .PHONY : CMakeFiles/Lab_7033009_002.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab_7033009_002.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lab_7033009_002.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Lab_7033009_002.dir/rule
@@ -92,6 +94,223 @@ Lab_7033009_002: CMakeFiles/Lab_7033009_002.dir/rule
 CMakeFiles/Lab_7033009_002.dir/clean:
 	$(MAKE) -f CMakeFiles\Lab_7033009_002.dir\build.make CMakeFiles/Lab_7033009_002.dir/clean
 .PHONY : CMakeFiles/Lab_7033009_002.dir/clean
+
+#=============================================================================
+# Directory level rules for directory Google_Test
+
+# Recursive "all" directory target.
+Google_Test/all: Google_Test/CMakeFiles/Google_Test.dir/all
+Google_Test/all: Google_Test/lib/all
+
+.PHONY : Google_Test/all
+
+# Recursive "clean" directory target.
+Google_Test/clean: Google_Test/CMakeFiles/Google_Test.dir/clean
+Google_Test/clean: Google_Test/lib/clean
+
+.PHONY : Google_Test/clean
+
+# Recursive "preinstall" directory target.
+Google_Test/preinstall: Google_Test/lib/preinstall
+
+.PHONY : Google_Test/preinstall
+
+#=============================================================================
+# Target rules for target Google_Test/CMakeFiles/Google_Test.dir
+
+# All Build rule for target.
+Google_Test/CMakeFiles/Google_Test.dir/all: Google_Test/lib/googletest/CMakeFiles/gtest.dir/all
+Google_Test/CMakeFiles/Google_Test.dir/all: Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) -f Google_Test\CMakeFiles\Google_Test.dir\build.make Google_Test/CMakeFiles/Google_Test.dir/depend
+	$(MAKE) -f Google_Test\CMakeFiles\Google_Test.dir\build.make Google_Test/CMakeFiles/Google_Test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Google_Test"
+.PHONY : Google_Test/CMakeFiles/Google_Test.dir/all
+
+# Build rule for subdir invocation for target.
+Google_Test/CMakeFiles/Google_Test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 6
+	$(MAKE) -f CMakeFiles\Makefile2 Google_Test/CMakeFiles/Google_Test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 0
+.PHONY : Google_Test/CMakeFiles/Google_Test.dir/rule
+
+# Convenience name for target.
+Google_Test: Google_Test/CMakeFiles/Google_Test.dir/rule
+
+.PHONY : Google_Test
+
+# clean rule for target.
+Google_Test/CMakeFiles/Google_Test.dir/clean:
+	$(MAKE) -f Google_Test\CMakeFiles\Google_Test.dir\build.make Google_Test/CMakeFiles/Google_Test.dir/clean
+.PHONY : Google_Test/CMakeFiles/Google_Test.dir/clean
+
+#=============================================================================
+# Directory level rules for directory Google_Test/lib
+
+# Recursive "all" directory target.
+Google_Test/lib/all: Google_Test/lib/googlemock/all
+
+.PHONY : Google_Test/lib/all
+
+# Recursive "clean" directory target.
+Google_Test/lib/clean: Google_Test/lib/googlemock/clean
+
+.PHONY : Google_Test/lib/clean
+
+# Recursive "preinstall" directory target.
+Google_Test/lib/preinstall: Google_Test/lib/googlemock/preinstall
+
+.PHONY : Google_Test/lib/preinstall
+
+#=============================================================================
+# Directory level rules for directory Google_Test/lib/googlemock
+
+# Recursive "all" directory target.
+Google_Test/lib/googlemock/all: Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/all
+Google_Test/lib/googlemock/all: Google_Test/lib/googlemock/CMakeFiles/gmock.dir/all
+Google_Test/lib/googlemock/all: Google_Test/lib/googletest/all
+
+.PHONY : Google_Test/lib/googlemock/all
+
+# Recursive "clean" directory target.
+Google_Test/lib/googlemock/clean: Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/clean
+Google_Test/lib/googlemock/clean: Google_Test/lib/googlemock/CMakeFiles/gmock.dir/clean
+Google_Test/lib/googlemock/clean: Google_Test/lib/googletest/clean
+
+.PHONY : Google_Test/lib/googlemock/clean
+
+# Recursive "preinstall" directory target.
+Google_Test/lib/googlemock/preinstall: Google_Test/lib/googletest/preinstall
+
+.PHONY : Google_Test/lib/googlemock/preinstall
+
+#=============================================================================
+# Target rules for target Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir
+
+# All Build rule for target.
+Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/all: Google_Test/lib/googletest/CMakeFiles/gtest.dir/all
+Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/all: Google_Test/lib/googlemock/CMakeFiles/gmock.dir/all
+	$(MAKE) -f Google_Test\lib\googlemock\CMakeFiles\gmock_main.dir\build.make Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/depend
+	$(MAKE) -f Google_Test\lib\googlemock\CMakeFiles\gmock_main.dir\build.make Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target gmock_main"
+.PHONY : Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/all
+
+# Build rule for subdir invocation for target.
+Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 6
+	$(MAKE) -f CMakeFiles\Makefile2 Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 0
+.PHONY : Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/rule
+
+# Convenience name for target.
+gmock_main: Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/rule
+
+.PHONY : gmock_main
+
+# clean rule for target.
+Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/clean:
+	$(MAKE) -f Google_Test\lib\googlemock\CMakeFiles\gmock_main.dir\build.make Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/clean
+.PHONY : Google_Test/lib/googlemock/CMakeFiles/gmock_main.dir/clean
+
+#=============================================================================
+# Target rules for target Google_Test/lib/googlemock/CMakeFiles/gmock.dir
+
+# All Build rule for target.
+Google_Test/lib/googlemock/CMakeFiles/gmock.dir/all: Google_Test/lib/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f Google_Test\lib\googlemock\CMakeFiles\gmock.dir\build.make Google_Test/lib/googlemock/CMakeFiles/gmock.dir/depend
+	$(MAKE) -f Google_Test\lib\googlemock\CMakeFiles\gmock.dir\build.make Google_Test/lib/googlemock/CMakeFiles/gmock.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target gmock"
+.PHONY : Google_Test/lib/googlemock/CMakeFiles/gmock.dir/all
+
+# Build rule for subdir invocation for target.
+Google_Test/lib/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 Google_Test/lib/googlemock/CMakeFiles/gmock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 0
+.PHONY : Google_Test/lib/googlemock/CMakeFiles/gmock.dir/rule
+
+# Convenience name for target.
+gmock: Google_Test/lib/googlemock/CMakeFiles/gmock.dir/rule
+
+.PHONY : gmock
+
+# clean rule for target.
+Google_Test/lib/googlemock/CMakeFiles/gmock.dir/clean:
+	$(MAKE) -f Google_Test\lib\googlemock\CMakeFiles\gmock.dir\build.make Google_Test/lib/googlemock/CMakeFiles/gmock.dir/clean
+.PHONY : Google_Test/lib/googlemock/CMakeFiles/gmock.dir/clean
+
+#=============================================================================
+# Directory level rules for directory Google_Test/lib/googletest
+
+# Recursive "all" directory target.
+Google_Test/lib/googletest/all: Google_Test/lib/googletest/CMakeFiles/gtest.dir/all
+Google_Test/lib/googletest/all: Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/all
+
+.PHONY : Google_Test/lib/googletest/all
+
+# Recursive "clean" directory target.
+Google_Test/lib/googletest/clean: Google_Test/lib/googletest/CMakeFiles/gtest.dir/clean
+Google_Test/lib/googletest/clean: Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/clean
+
+.PHONY : Google_Test/lib/googletest/clean
+
+# Recursive "preinstall" directory target.
+Google_Test/lib/googletest/preinstall:
+
+.PHONY : Google_Test/lib/googletest/preinstall
+
+#=============================================================================
+# Target rules for target Google_Test/lib/googletest/CMakeFiles/gtest.dir
+
+# All Build rule for target.
+Google_Test/lib/googletest/CMakeFiles/gtest.dir/all:
+	$(MAKE) -f Google_Test\lib\googletest\CMakeFiles\gtest.dir\build.make Google_Test/lib/googletest/CMakeFiles/gtest.dir/depend
+	$(MAKE) -f Google_Test\lib\googletest\CMakeFiles\gtest.dir\build.make Google_Test/lib/googletest/CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target gtest"
+.PHONY : Google_Test/lib/googletest/CMakeFiles/gtest.dir/all
+
+# Build rule for subdir invocation for target.
+Google_Test/lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Google_Test/lib/googletest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 0
+.PHONY : Google_Test/lib/googletest/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: Google_Test/lib/googletest/CMakeFiles/gtest.dir/rule
+
+.PHONY : gtest
+
+# clean rule for target.
+Google_Test/lib/googletest/CMakeFiles/gtest.dir/clean:
+	$(MAKE) -f Google_Test\lib\googletest\CMakeFiles\gtest.dir\build.make Google_Test/lib/googletest/CMakeFiles/gtest.dir/clean
+.PHONY : Google_Test/lib/googletest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target Google_Test/lib/googletest/CMakeFiles/gtest_main.dir
+
+# All Build rule for target.
+Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/all: Google_Test/lib/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f Google_Test\lib\googletest\CMakeFiles\gtest_main.dir\build.make Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/depend
+	$(MAKE) -f Google_Test\lib\googletest\CMakeFiles\gtest_main.dir\build.make Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target gtest_main"
+.PHONY : Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/all
+
+# Build rule for subdir invocation for target.
+Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\itato\CLionProjects\Lab-7033009-002\cmake-build-debug\CMakeFiles 0
+.PHONY : Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+# Convenience name for target.
+gtest_main: Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+.PHONY : gtest_main
+
+# clean rule for target.
+Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/clean:
+	$(MAKE) -f Google_Test\lib\googletest\CMakeFiles\gtest_main.dir\build.make Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/clean
+.PHONY : Google_Test/lib/googletest/CMakeFiles/gtest_main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

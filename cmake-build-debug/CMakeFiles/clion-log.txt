@@ -1,18 +1,4 @@
 "D:\Program(64)\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\itato\CLionProjects\Lab-7033009-002
--- The C compiler identification is GNU 8.2.0
--- The CXX compiler identification is GNU 8.2.0
--- Check for working C compiler: D:/Program(64)/MinGW/bin/gcc.exe
--- Check for working C compiler: D:/Program(64)/MinGW/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: D:/Program(64)/MinGW/bin/g++.exe
--- Check for working CXX compiler: D:/Program(64)/MinGW/bin/g++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - failed
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug
