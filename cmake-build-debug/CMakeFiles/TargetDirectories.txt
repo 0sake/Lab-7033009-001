@@ -1,0 +1,3 @@
+C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/Lab_7033009_002.dir
+C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,36 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program(64)/MinGW/bin/mingw32-make.exe cmTC_5b859/fast && D:/Program(64)/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_5b859.dir\build.make CMakeFiles/cmTC_5b859.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b859.dir/CMakeCCompilerABI.c.obj
+D:\Program(64)\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_5b859.dir\CMakeCCompilerABI.c.obj   -c "D:\Program(64)\CLion 2019.3\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+"D:\Program" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+CMakeFiles\cmTC_5b859.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_5b859.dir/CMakeCCompilerABI.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_5b859.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_5b859/fast' failed
+mingw32-make.exe: *** [cmTC_5b859/fast] Error 2
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program(64)/MinGW/bin/mingw32-make.exe cmTC_c5450/fast && D:/Program(64)/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c5450.dir\build.make CMakeFiles/cmTC_c5450.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5450.dir/CMakeCXXCompilerABI.cpp.obj
+D:\Program(64)\MinGW\bin\g++.exe    -v -o CMakeFiles\cmTC_c5450.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program(64)\CLion 2019.3\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"
+"D:\Program" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+CMakeFiles\cmTC_c5450.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_c5450.dir/CMakeCXXCompilerABI.cpp.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c5450.dir/CMakeCXXCompilerABI.cpp.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/itato/CLionProjects/Lab-7033009-002/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_c5450/fast' failed
+mingw32-make.exe: *** [cmTC_c5450/fast] Error 2
+
+
+
+
